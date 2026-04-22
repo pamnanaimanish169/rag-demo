@@ -1,0 +1,13 @@
+{
+    "name": "rag-local-ubuntu",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "chromadb": "^1.10.0",
+        "chromadb-default-embed": "^2.14.0",
+        "dotenv": "^16.4.5"
+    }
+}
