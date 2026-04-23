@@ -6,8 +6,11 @@
         "start": "node app.js"
     },
     "dependencies": {
+        "@langchain/textsplitters": "^1.0.1",
         "chromadb": "^1.10.0",
         "chromadb-default-embed": "^2.14.0",
-        "dotenv": "^16.4.5"
+        "dotenv": "^16.4.5",
+        "ollama": "^0.5.18",
+        "playwright": "^1.59.1"
     }
 }
