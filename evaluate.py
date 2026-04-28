@@ -87,7 +87,7 @@ for m in metrics:
     m.llm        = llm
     m.embeddings = embeddings
 
-results = evaluate(dataset, metrics=metrics, raise_exceptions=False, max_workers=1)
+results = evaluate(dataset, metrics=metrics, raise_exceptions=False)
 
 print("\n── RAGAS Scores ──────────────────────────────")
 print(results)
