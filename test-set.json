@@ -1,0 +1,62 @@
+[
+    {
+      "question": "How do you load an HTML string in Cheerio?",
+      "ground_truth": "You use the cheerio.load() function, passing it an HTML string. For example: const $ = cheerio.load('<h1>Hello</h1>')."
+    },
+    {
+      "question": "How do you get the text content of an element in Cheerio?",
+      "ground_truth": "You use the .text() method on a Cheerio selection to get the combined text contents of each element in the set."
+    },
+    {
+      "question": "How do you get or set an attribute value in Cheerio?",
+      "ground_truth": "You use the .attr() method. Pass one argument to get the attribute value, or two arguments to set it. For example: $('a').attr('href') to get, or $('a').attr('href', 'url') to set."
+    },
+    {
+      "question": "How do you find descendant elements matching a selector in Cheerio?",
+      "ground_truth": "You use the .find() method, passing a CSS selector. It searches within the descendants of the matched elements and returns a new Cheerio object."
+    },
+    {
+      "question": "How do you iterate over a set of matched elements in Cheerio?",
+      "ground_truth": "You use the .each() method, passing a callback function that receives the index and the DOM element as arguments."
+    },
+    {
+      "question": "How do you get the HTML content of an element in Cheerio?",
+      "ground_truth": "You use the .html() method. Called with no arguments it returns the inner HTML of the first matched element. Pass a string to set the HTML content."
+    },
+    {
+      "question": "How do you add a class to an element in Cheerio?",
+      "ground_truth": "You use the .addClass() method, passing one or more class names as a string. For example: $('p').addClass('highlight')."
+    },
+    {
+      "question": "How do you remove an element from the document in Cheerio?",
+      "ground_truth": "You use the .remove() method. It removes the matched elements and their descendants from the DOM."
+    },
+    {
+      "question": "How do you get the parent of an element in Cheerio?",
+      "ground_truth": "You use the .parent() method. It returns the direct parent of each matched element. You can optionally pass a selector to filter the results."
+    },
+    {
+      "question": "How do you append content inside an element in Cheerio?",
+      "ground_truth": "You use the .append() method, passing an HTML string, a Cheerio object, or a DOM element. It inserts the content at the end of each matched element."
+    },
+    {
+      "question": "How do you filter a set of matched elements by a selector in Cheerio?",
+      "ground_truth": "You use the .filter() method, passing a CSS selector or a function. It reduces the set of matched elements to those that match the selector or pass the function test."
+    },
+    {
+      "question": "How do you check if an element matches a selector in Cheerio?",
+      "ground_truth": "You use the .is() method, passing a selector, element, or function. It returns true if at least one of the matched elements satisfies the given condition."
+    },
+    {
+      "question": "How do you get the children of an element in Cheerio?",
+      "ground_truth": "You use the .children() method. It returns the direct children of each matched element. You can pass an optional selector to filter the children."
+    },
+    {
+      "question": "How do you load Cheerio with XML parsing mode?",
+      "ground_truth": "You pass an options object to cheerio.load() with xmlMode set to true. For example: cheerio.load(data, { xmlMode: true })."
+    },
+    {
+      "question": "How do you get or set the value of a form element in Cheerio?",
+      "ground_truth": "You use the .val() method. Called with no arguments it returns the value of the first matched form element. Pass a string to set the value."
+    }
+  ]
